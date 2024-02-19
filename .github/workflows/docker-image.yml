@@ -1,5 +1,8 @@
 name: Docker Image CI
 
+env: 
+  MODULE: membership-service
+  
 on:
   push:
     branches: [ "devops" ]
